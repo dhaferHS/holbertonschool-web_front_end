@@ -2,19 +2,19 @@ html {
     scroll-behavior: smooth;
 }
 body {
-	color: #161616;
+	color: color-primary;
 }
 a {
-	color: #161616;
+	color: color-primary;
 }
 .visually-hidden {
 	display: none;
 }
 .card-category {
-	color:#D73953;
+	color: color-primary;
 }
 .section-tagline {
-	color:#D73953;
+	color: color-primary;
 }
 :color-primary {
 	color: #d73953;
