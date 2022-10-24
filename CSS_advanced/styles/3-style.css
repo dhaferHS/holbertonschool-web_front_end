@@ -2,35 +2,25 @@ html {
     scroll-behavior: smooth;
 }
 body {
-	color: color-primary;
+	color: var(--color-primary);
 }
 a {
-	color: color-primary;
+	color: var(--color-primary);
 }
 .visually-hidden {
 	display: none;
 }
 .card-category {
-	color: color-primary;
+	color: var(--color-primary);
 }
 .section-tagline {
-	color: color-primary;
+	color: var(--color-primary);
 }
-:color-primary {
-	color: #d73953;
-}
-:color-black {
-	color: #090909;
-}
-:color-white {
-	color: #ffffff;
-}
-:color-light-grey {
-	color: #f3f3f3;
-}
-:color-dark-grey {
-	color: #353535;
-}
-:text-color {
-	color: color-black ;
+:root{
+	--color-primary: #d73953;
+    --color-black:#090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+	--text-color : var(--color-black);
 }
