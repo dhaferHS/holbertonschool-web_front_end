@@ -205,7 +205,7 @@ ul.row{
 	height: 10rem;
 }
 
-.card-testimonial .card-quote cite{
+.card-quote .card-testimonial cite{
 	display: block;
 	padding: 1rem;
 	color: var(--color-primary);
